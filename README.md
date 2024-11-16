@@ -8,11 +8,11 @@ The web application is written using the Python Flask framework. It uses SQLite,
 
 Below we can examine the main components of the firsts prototype of the application:
 
-![TechTrends Application](https://github.com/ghgy7878/CN-Project1/images/111.png)
+<img src="images/111.png">
 
 Additionally, the initial sitemap of the website can be found below:
 
-![Sitemap](https://github.com/ghgy7878/CN-Project1/images/222.png)
+<img src="images/222.png">
 
 Where:
 
@@ -22,6 +22,6 @@ Where:
 - 404 page - is rendered when an article ID does not exist is accessed
 - And lastly, the first prototype of the application is storing and accessing posts from the "POSTS" SQL table. A post entry contains the post ID (primary key), creation timestamp, title, and content. The "POSTS" table schema can be examined below:
 
-![Post Schema](https://github.com/ghgy7878/CN-Project1/images/333.png)
+<img src="images/333.png">
 
 # Project Steps Overview
