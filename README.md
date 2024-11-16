@@ -25,7 +25,35 @@ Where:
 <img src="images/333.png">
 
 # Getting Started
+This repository file structure can be found below:
+<img src="images/444.png">
 
+Where:
+
+- README.md contains the main steps of how to execute the TechTrends application
+- __init__.py is a reserved method used to indicate that a directory is a Python package
+- app.py contains the main logging of the TechTrends application
+- init_db.py is a file that is used to initialize the posts database with a set of articles
+- requirements.txt contains a list of packages that need to be installed before running the TechTrends application
+- schema.sql outlines the posts database schema
+- static/ folder contains the CSS files
+- templates/ folder outlines the HTML structure of the TechTrends application
+
+Within the project folder we will notice some extra folders and files. These will be used to record our commands and output screenshots.
+
+- argocd - the folder that will contain the ArgoCD manifests
+- helm - the folder that will contain the Helm chart files
+- kubernetes - the folder that will contain Kubernetes declarative manifests
+- screenshots - the folder that will contain all the screenshots that you take throughout the course
+- Vagrantfile - the file containing the configuration for the vagrant box. Will be used to create a vagrant box locally.
+- docker_commands - the file will be used to record any used Docker commands and outputs
+
+To run this application follow these steps:
+
+1. Initialize the database by using the python init_db.py command. This creates or overwrites (if the file already exists) the database.db file that is used to store and access the available posts.
+2. Run the TechTrends application by using the python app.py command. The application is running on port 3111 and you can access it by querying the http://127.0.0.1:3111/ endpoint.
+
+# Dependencies
 
 # Project Steps Overview
 1. Apply the best development practices and develop the status and health check endpoints for the TechTrends application.
