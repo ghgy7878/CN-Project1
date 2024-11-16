@@ -55,6 +55,13 @@ To run this application follow these steps:
 
 # Dependencies
 
+1. Fork the [course repository](https://github.com/udacity/nd064_course_1/tree/main/project) containing the Techtrends application.
+2. Python 3.6 or higher
+3. Git
+4. Docker
+5. Vagrant 
+6. VirtualBox 6.1.16 or higher
+
 # Project Steps Overview
 1. Apply the best development practices and develop the status and health check endpoints for the TechTrends application.
 2. Package the TechTrends application by creating a Dockefile and Docker image.
@@ -62,3 +69,7 @@ To run this application follow these steps:
 4. Construct the Kubernetes declarative manifests to deploy TechTrends to a sandbox namespace within a Kubernetes cluster. The cluster should be provisioned using k3s in a vagrant box.
 5. Template the Kubernetes manifests using a Helm chart and provide the input configuration files for staging and production environments.
 6. Implement the Continuous Delivery practices, by deploying the TechTrends application to staging and production environments using ArgoCD and the Helm chart.
+
+# Step 1:
+
+## Best Practices For Application Deployment
